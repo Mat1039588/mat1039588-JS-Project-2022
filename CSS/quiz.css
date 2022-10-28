@@ -211,21 +211,21 @@
 }
 
 .choice-container {
-    background: #ffd89b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #946617;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1b2a35, #6c490f);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color:transparent;
-   margin-top: 40px ;
-    margin-bottom: 0rem;
+   margin-top: 40px;
     width: 100%;
-    border-radius: 4px;
+    border-radius: 10px;
     font-size: 2rem;
-    min-width: 90rem;
-    align-items: center;;
+    max-width: 38.8rem;
+    min-width: 20rem;
+    text-align: center;
+}
+
+.questions {
+    align-items: center;
 }
 
 .choice-container:hover {
@@ -242,6 +242,8 @@
 
 .choice-text {
     width: 100%;
+    color: #000000;
+    font-size: 36px;
 }
 
 .correct {
@@ -266,6 +268,8 @@
     font-size: 2rem;
 }
 
+
+
 .hud-main-text {
     text-align: center;
 }
@@ -273,11 +277,25 @@
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid rgb(218, 151, 88);
+    border: 0.2rem solid rgb(215, 117, 26);
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
+}
 
+#progressBarFull {
+    height: 100%;
+    background: rgb(215, 117, 26);
+    width: 0%;
+}
+
+/*media for choice container */
+
+@media screen and (max-width: 768px){
+    .choice-container {
+        min-width: 25rem;
+        margin-left: -1rem;
+    }
 }
 
 
