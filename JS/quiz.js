@@ -4,11 +4,11 @@ const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
 
-let currentQuestion = {};
-let acceptingAnswers = true;
-let score = 0;
-let questionCounter = 0;
-let availableQuestions = [];
+let currentQuestion = {}
+let acceptingAnswers = true
+let score = 0
+let questionCounter = 0
+let availableQuestions = []
 
 let questions = [
     {
@@ -67,23 +67,24 @@ let questions = [
     },
 ]
 
-const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 6;
+const SCORE_POINTS = 100
+const MAX_QUESTIONS = 4
 
 startGame = () => {
-    questionCounter = 0;
-    score = 0;
+    questionCounter = 0
+    score = 0
     availableQuestions = [...questions]
     getNewQuestion()
 };
 
 getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionsCounter > MAX_QUESTIONS) {
+    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
-        return window.location.assign('/end_quiz.html');
+
+        return window.location.assign('/index.html')
     }
 
-    questionCounter++
+    questionCounter ++
     progressText.innerText = 'Question ${questionCounter} of ${MAX_QUESTIONS}'
     progressBarFull.style.width = '${questionCounter/MAX_QUESTIONS) * 100}%'
 
@@ -92,22 +93,22 @@ getNewQuestion = () => {
     question.innerText = currentQuestion.question
 
     choices.forEach(choice => {
-        const number = choice.database['number']
+        const number = choice.dataset['number']
         choice.innerText = currentQuestion['choice' + number]
     })
     
     availableQuestions.splice(questionsIndex, 1)
 
-    acceptingAnswers = true;
+    acceptingAnswers = true
 }
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-    if(acceptingAnswers) return
+    if(!acceptingAnswers) return
 
-    acceptingAnswers = false;
+    acceptingAnswers = false
     const selectedChoice = e.target
-    const selectedAnswer = selectedChoice.database['number']
+    const selectedAnswer = selectedChoice.dataset['number']
 
     let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
@@ -125,9 +126,9 @@ choices.forEach(choice => {
 })
 
 incrementScore = num => {
-    score += num
+    score +=num
     scoreText.innerText = score
 }
 
-
+startGame()
 
