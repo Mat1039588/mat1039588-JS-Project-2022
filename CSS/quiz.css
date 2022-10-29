@@ -293,7 +293,7 @@
 
 @media screen and (max-width: 768px){
     .choice-container {
-        min-width: 25rem;
+        min-width: 15rem;
         margin-left: -1rem;
     }
 }
