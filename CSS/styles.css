@@ -575,14 +575,14 @@ background-size: 100%;
 }
 
 .contacts_input_box span {
-    position: absolute;
+    position: relative;
     left: 0;
     padding: 5px 0;
     font-size: 12px;
     margin: 10px 0;
     pointer-events: none;
     transition: 0.5s;
-    color: #131313;
+    color: #fff;
 }
 
 .contacts_input_box input[type = "submit"] {
@@ -607,7 +607,6 @@ background-size: 100%;
     .contacts_info {
         margin-bottom: 40px;
     }
-}
 
 
 
@@ -732,11 +731,9 @@ background-size: 100%;
         padding: 10px;
         width: 100%;
     }
-
+}
     .bottom_paragraph {
         margin: 0;
         padding: 10px;
         width: 100%;
     }
-
-}
