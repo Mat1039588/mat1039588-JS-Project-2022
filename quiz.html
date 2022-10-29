@@ -26,9 +26,8 @@
             <ul class="navBar_Menu">
                 <li class="navBar_item"><a href="/index.html" class="navBar_links" id="HomePage">Home</a></li>
                 <li class="navBar_item"><a href="/about.html" class="navBar_links" id="AboutPage">About</a></li>
-                <li class="navBar_item"><a href="/scores.html" class="navBar_links" id="ScoresPage">Scores</a></li>
                 <li class="navBar_item"><a href="/contact.html" class="navBar_links" id="ScoresPage">Contact</a></li>
-                <li class="navBar_btn"><a href="/signup.html" class="button" id="SignUp">Sign Up!</a>
+                <li class="navBar_btn"><a href="/cocktails.html" class="button" id="SignUp">Recipes!</a>
                 </li>
             </ul> 
     </div>
@@ -37,7 +36,7 @@
 <!--quiz section-->
 
 <div class="quiz_container">
-    <div id="quiz" class="questions">
+    <div id="game" class="justify-center flex-column">
         <div id="hud">
             <div class="hud-item">
                 <p id="progressText" class="hud-prefix">Question</p>
@@ -52,30 +51,26 @@
         </div>
         <div id="question">What is the answer to this question?</div>
         <div class="choice-container">
-            <p class="choice-prefix"></p>
+            <p class="choice-prefix">A</p>
             <p class="choice-text" data-number="1">Choice1</p>
         </div>
         <div class="choice-container">
-            <p class="choice-prefix"></p>
+            <p class="choice-prefix">B</p>
             <p class="choice-text" data-number="2">Choice2</p>
         </div>
         <div class="choice-container">
-            <p class="choice-prefix"></p>
+            <p class="choice-prefix">C</p>
             <p class="choice-text" data-number="3">Choice3</p>
         </div>
         <div class="choice-container">
-            <p class="choice-prefix"></p>
+            <p class="choice-prefix">D</p>
             <p class="choice-text" data-number="4">Choice4</p>
         </div>
         <div class="choice-container">
-            <p class="choice-prefix"></p>
+            <p class="choice-prefix">E</p>
             <p class="choice-text" data-number="5">Choice5</p>
         </div>
-        <div class="choice-container">
-            <p class="choice-prefix"></p>
-            <p class="choice-text" data-number="6">Choice6</p>
-        </div>
-    </div>
+
 </div>
 
 <!--footer section-->
@@ -109,5 +104,6 @@
     </div>
 </footer>
 <script src="/JS/quiz.js"></script>
+<script src="/JS/toggle.js"></script>
 </body>
 </html>
