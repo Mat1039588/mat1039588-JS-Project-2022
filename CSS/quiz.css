@@ -215,13 +215,14 @@
     background: -webkit-linear-gradient(to left, #1b2a35, #6c490f);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
-   margin-top: 40px;
-    width: 100%;
+   margin-top: 20px;
+    width: 50%;
     border-radius: 10px;
-    font-size: 2rem;
-    max-width: 38.8rem;
-    min-width: 20rem;
+    font-size: px;
+    max-width: 30rem;
+    min-width: 10px;
     text-align: center;
+    margin-left: 14rem;
 }
 
 .questions {
@@ -243,7 +244,7 @@
 .choice-text {
     width: 100%;
     color: #000000;
-    font-size: 36px;
+    font-size: 25px;
 }
 
 .correct {
@@ -294,7 +295,8 @@
 @media screen and (max-width: 768px){
     .choice-container {
         min-width: 15rem;
-        margin-left: -1rem;
+        margin-left: 4rem;
+        align-items: center;
     }
 }
 
@@ -337,6 +339,7 @@
     text-align: left;
     width: 160px;
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 .footer_link_items h2 {
@@ -388,6 +391,7 @@
     margin-left: -40px;
     color: #fff;
     align-items: center;
+    font-size: 18px;
 }
 
 
