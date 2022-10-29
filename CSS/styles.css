@@ -623,6 +623,7 @@ background-size: 100%;
 
 /* footer section */
 
+
 .footer_container {
     background-color: #131313;
     padding: 5rem 0;
@@ -644,6 +645,7 @@ background-size: 100%;
 }
 
 .footer_link_items {
+    background: #131313;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -720,8 +722,12 @@ background-size: 100%;
         margin-left: -40px;
     }
 
-    .bottom_paragraph {
-        margin-left: -40px;
+    .bottom_paragraph p {
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+        align-items: center;
+    }
     }
 }
 
@@ -732,8 +738,9 @@ background-size: 100%;
         width: 100%;
     }
 }
-    .bottom_paragraph {
+    .bottom_paragraph p {
         margin: 0;
         padding: 10px;
         width: 100%;
+        align-items: center;
     }
