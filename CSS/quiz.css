@@ -218,7 +218,7 @@
    margin-top: 20px;
     width: 50%;
     border-radius: 10px;
-    font-size: px;
+    font-size: 20px;
     max-width: 30rem;
     min-width: 10px;
     text-align: center;
@@ -233,7 +233,7 @@
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(184, 154, 22, 0.5);
     transform: scale(1.02);
-    transform: transform 100ms;
+    transform: none;
 }
 
 .choice-prefix {
@@ -359,12 +359,12 @@
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
-    transition: 0.3 ease-out;
+    transition: ease-out;
 }
 
 .footer_link_items a:hover {
     color: #fff;
-    transition: 0.3 ease-out;
+    transition: ease-out;
 }
 
 .footer_socialMedia {
