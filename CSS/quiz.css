@@ -1,8 +1,9 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0%;
     font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /*navBar Section*/
@@ -113,7 +114,7 @@
         display: grid;
         grid-template-columns: auto;
         margin: 0;
-        width: 100%;
+        width: 85%;
         position: absolute;
         top: -1000px;
         opacity: 1;
@@ -192,6 +193,7 @@
     }
 }
 
+
 /*quiz page style */
 
 .quiz_container {
@@ -215,14 +217,14 @@
     background: -webkit-linear-gradient(to left, #1b2a35, #6c490f);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
-   margin-top: 20px;
+    margin-top: 20px;
     width: 50%;
     border-radius: 10px;
     font-size: 20px;
     max-width: 30rem;
     min-width: 10px;
     text-align: center;
-    margin-left: 14rem;
+    margin-left: 400px;
 }
 
 .questions {
@@ -264,9 +266,18 @@
     justify-content: space-between;
 }
 
-.hud-prefix {
+.hud-prefix1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    margin-top: 20px ;
+}
+
+.hud-prefix2 {
+    text-align: center;
+    font-size:1.5rem;
+    margin-right: 20px;
+    margin-top: 15px;
 }
 
 
@@ -282,6 +293,7 @@
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
+    margin-left: 20px;
 }
 
 #progressBarFull {
@@ -292,20 +304,36 @@
 
 /*media for choice container */
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 350px){
     .choice-container {
-        min-width: 15rem;
-        margin-left: 4rem;
-        align-items: center;
+        margin-left: 55px;
+        padding: 10px;
+        align-items:center;
+        min-height: 1rem;
+    }
+    .choice-text {
+        font-size: 20px;
+    }
+
+    #question {
+        font-size: 20px;
+    }
+
+    #progressBar {
+        width: 15rem;
+        height: 3rem;
+        border: 0.2rem solid rgb(215, 117, 26);
+        margin-top: 2rem;
+        border-radius: 50px;
+        overflow: hidden;
+        margin-left: 20px;
     }
 }
 
-
-
-
-
-
-
+@media screen and (min-width: 980px){
+    
+    
+}
 
 
 
@@ -332,6 +360,7 @@
 }
 
 .footer_link_items {
+    background: #131313;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -339,7 +368,6 @@
     text-align: left;
     width: 160px;
     box-sizing: border-box;
-    font-size: 18px;
 }
 
 .footer_link_items h2 {
@@ -363,36 +391,47 @@
 }
 
 .footer_link_items a:hover {
-    color: #fff;
-    transition: ease-out;
+    color: #e9e9e9;
+    transition: 0.3s ease-out;
 }
+
+/* social media icons */
 
 .footer_socialMedia {
     color: #fff;
     font-size: 24px;
-
-}
-
-.footer_socialMedia {
-    max-width: 1000px;
-    width: 100%;
-}
+} 
 
 .footer_socialMedia {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 240px;
+    width: 90%;
     max-width: 1000px;
-    margin: 40px auto 0;
+    margin: 40px auto 0 auto;
 }
 
+.social_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+.footer_socialMedia {
+    max-width: 1000px;
+    width: 150%;
+    margin-top: 1ch;
+}
+
+
 .bottom_paragraph  {
-    margin-left: -40px;
     color: #fff;
     align-items: center;
-    font-size: 18px;
+    font-size: 12px;
+    margin-bottom: -10px;
 }
+
 
 
 /* media for the footer*/
@@ -410,19 +449,17 @@
         margin-left: -40px;
     }
 
-    .bottom_paragraph {
-        margin-left: -40px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .footer_link_items {
+    .bottom_paragraph p {
         margin: 0;
         padding: 10px;
         width: 100%;
+        align-items: center;
     }
+}
 
-    .bottom_paragraph {
+
+@media screen and (max-width: 270px) {
+    .footer_link_items {
         margin: 0;
         padding: 10px;
         width: 100%;
