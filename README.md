@@ -16,3 +16,10 @@ There would be a score tracker, to keep track of the points, when the right answ
 
 For any returning visitor the goal would evenutally be to be more confident in taking the quiz again and get all the answers correctly.
 
+
+CONTENT OF THE WEBSITE
+
+The website presents a very simple structure. It contains 4 pages.
+
+![Main Page]()
+
