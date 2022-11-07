@@ -407,7 +407,7 @@ background-size: 100%;
 
 /* mobile responsive */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 2900px, max-height: 1600px) {
     .aboutMain_container {
         display: grid;
         grid-template-columns: 1fr;
@@ -577,7 +577,7 @@ background-size: 100%;
 }
 
 /* media for the contacts section*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1800px) {
     .contacts_container {
         margin-left: -80px;
         width: 250%;
