@@ -407,7 +407,7 @@ background-size: 100%;
 
 /* mobile responsive */
 
-@media screen and (max-width: 2900px, max-height: 1600px) {
+@media screen and (max-width: 1100px) {
     .aboutMain_container {
         display: grid;
         grid-template-columns: 1fr;
