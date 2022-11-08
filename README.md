@@ -70,8 +70,48 @@ HERE IS WHAT I USED TO DEPLOY THE WEBSITE AND ANY EXTERNAL USEFUL LINKS
 - [W3C validator](https://validator.w3.org/) for the html testing.
 - [JIGSAW validator](https://jigsaw.w3.org/css-validator/) for the CSS part testing.
 - [JS Validator](https://jshint.com/) for the part relative to the javascript testing.
-- [STACK OVERFLOW](https://stackoverflow.com/) for asking the community about any problems and solution i might have encoutered in my code writing.
+- [STACK OVERFLOW](https://stackoverflow.com/) for asking the community about any problems and solution i might have encoutered in the project development.
 - [W3 SCHOOLS](https://www.w3schools.com/) for tutorials and review of certain topics.
 
+TESTING AND PERFORMANCE
 
+The testing of the codes (HTML, CSS, JS) have made using:
+
+1. W3C validator.
+2. JIGSAW for the CSS part.
+3. JSHint for the JS part.
+
+![HTML Validator](/IMG/testing_validator_screenshot_html.png)
+![CSS Validator](/IMG/testing_validator_screenshot_CSS.png)
+![JS Validator](/IMG/quiz_js_screenshot_1.png)
+![JS Validator](/IMG/quiz_js_screenshot_2.png)
+![JS Validator](/IMG/quiz_js_screenshot_3.png)
+![JS Validator](/IMG/toggle_menu_js_screenshot.png)
+
+There are several warnings and errors that need to be fixed in the nearest future for maintainability of the project.
+
+PERFORMANCE
+
+To test the performance of the pages, Lightouse from ChromeDevTools has been used:
+
+![Lightouse result](/IMG/performance_lighthouse_main.png)
+
+Deployment has been made using GitHub Page:
+
+1. Log in (or sign up) to GitHub.
+
+2. Find the repository for this project, mat1039588-JS-Project-2022.
+
+2. Click on the Settings link.
+
+2. Click on the Pages link in the left hand side navigation bar.
+
+In the Source section, choose main from the drop-down select branch menu. Select Root from the drop-down select frolder menu.
+
+Click Safe. Your live GitHub Pages site is not deployed at the URL shown (https://mat1039588.github.io/mat1039588-JS-Project-2022/about.html).
+
+Conclusions:
+
+This is a website with great potential. The intent is to add as many informations as possible, not only through a quiz, but also including cocktails recipes, video tutorials, pictures and a close interaction with the user. <br> It could be a great portal to teach novices and brainstorm platform for the experts in the field.
+<br><br> There are few errors in the code that need further care and management. The overall experience is not compromised. <br><br>Further testing is demanded for a better accessibility (especially on different devices), also once the overall interaction is improved, the user will feel more part of it and eventually keen to come back and add something to it via the 'contact' section. That is the main goal.
 
