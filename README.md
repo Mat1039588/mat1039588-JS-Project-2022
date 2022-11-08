@@ -51,3 +51,14 @@ TECHNOLOGIES USED
 - CSS
 - JAVASCRIPT
 
+THE SKETCHES USED AS WIREFRAMES:
+
+![WIREFRAME INDEX](/IMG/index%20wireframe.jpg)
+![WIREFRAME QUIZ](/IMG/quiz%20wireframe.jpg)
+![WIREFRAME ABOUT](/IMG/about%20wireframe.jpg)
+![WIREFRAME CONTACT](/IMG/contact%20wireframe.jpg)
+![WIREFRAME SMARTPHONE](/IMG/smartphone%20wirefarme%201.jpg)
+![WIREFRAME SMARTPHONE](/IMG/smartphone%20wirefarme%202.jpg)
+![WIREFRAME TABLETS](/IMG/tablets%20wireframe%201.jpg)
+![WIREFRAME TABLETS](/IMG/tablets%20wirefarme%202.jpg)
+![WIREFRAME TABLETS](/IMG/tabltes%20wireframe%203.jpg)
