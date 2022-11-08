@@ -68,7 +68,10 @@ HERE IS WHAT I USED TO DEPLOY THE WEBSITE AND ANY EXTERNAL USEFUL LINKS
 - [Github](https://github.com/) - To save and store files on website on my repository.
 - [Font Awesome](http//fontawesome.com/) for the icons present in the website.
 - [W3C validator](https://validator.w3.org/) for the html testing.
-- [JIGSAW validator](https://jigsaw.w3.org/css-validator/) for the CSS part validation.
+- [JIGSAW validator](https://jigsaw.w3.org/css-validator/) for the CSS part testing.
+- [JS Validator](https://jshint.com/) for the part relative to the javascript testing.
 - [STACK OVERFLOW](https://stackoverflow.com/) for asking the community about any problems and solution i might have encoutered in my code writing.
 - [W3 SCHOOLS](https://www.w3schools.com/) for tutorials and review of certain topics.
+
+
 
