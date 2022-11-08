@@ -62,3 +62,13 @@ THE SKETCHES USED AS WIREFRAMES:
 ![WIREFRAME TABLETS](/IMG/tablets%20wireframe%201.jpg)
 ![WIREFRAME TABLETS](/IMG/tablets%20wirefarme%202.jpg)
 ![WIREFRAME TABLETS](/IMG/tabltes%20wireframe%203.jpg)
+
+HERE IS WHAT I USED TO DEPLOY THE WEBSITE AND ANY EXTERNAL USEFUL LINKS
+
+- [Github](https://github.com/) - To save and store files on website on my repository.
+- [Font Awesome](http//fontawesome.com/) for the icons present in the website.
+- [W3C validator](https://validator.w3.org/) for the html testing.
+- [JIGSAW validator](https://jigsaw.w3.org/css-validator/) for the CSS part validation.
+- [STACK OVERFLOW](https://stackoverflow.com/) for asking the community about any problems and solution i might have encoutered in my code writing.
+- [W3 SCHOOLS](https://www.w3schools.com/) for tutorials and review of certain topics.
+
