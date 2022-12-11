@@ -121,9 +121,8 @@ choices.forEach(choice => {
     });
 });
 
-;
     score +=num;
     scoreText.innerText = score;
-};
+
 
 startGame();
